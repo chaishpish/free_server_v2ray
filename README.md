@@ -7,3 +7,4 @@
 
 **لاینک ساب:**  
 https://raw.githubusercontent.com/chaishpish/-/refs/heads/main/sub.txt
+v2ray, free subscription, vmess, vless
