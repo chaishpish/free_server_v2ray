@@ -5,6 +5,6 @@
 
 👉 [t.me/nv2rayserver](https://t.me/nv2rayserver)
 
-**لاینک ساب:**  
+**لینک ساب:**  
 https://github.com/chaishpish/free_server_v2ray/releases
 v2ray, free subscription, vmess, vless
