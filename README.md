@@ -1,10 +1,11 @@
-## لیست ساب اسکریپشن رایگان V2Ray
+V2Ray Free New Server
+Free V2Ray Subscription List
+Free servers with daily updates
+Join our Telegram channel to get notifications and new servers:
 
-سرورهای رایگان با آپدیت روزانه  
-برای دریافت اطلاع‌رسانی و سرورهای جدید عضو کانال تلگرام شوید:
+👉 https://t.me/nv2rayserver
 
-👉 [t.me/nv2rayserver](https://t.me/nv2rayserver)
+Subscription link:
+[https://raw.githubusercontent.com/chaishpish/free_server_v2ray/refs/heads/main/mordadv2](https://github.com/chaishpish/free_server_v2ray/releases)
 
-**لینک ساب:**  
-[https://github.com/chaishpish/free_server_v2ray/releases](https://github.com/chaishpish/free_server_v2ray/releases)
 v2ray, free subscription, vmess, vless
