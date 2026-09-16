@@ -1,0 +1,38 @@
+name: Auto Update README Timestamp
+
+on:
+  schedule:
+    # اجرا به صورت خودکار هر روز ساعت ۰۰:۰۰ به وقت UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # امکان اجرای دستی از تب Actions
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update Timestamp in README
+        run: |
+          # دریافت تاریخ و ساعت فعلی به وقت تهران
+          CURRENT_TIME=$(TZ="Asia/Tehran" date +"%Y-%m-%d %H:%M")
+          
+          # اگر خط "آخرین به‌روزرسانی" وجود داشت، آن را جایگزین می‌کند
+          if grep -q "🕒 آخرین به‌روزرسانی:" README.md; then
+            sed -i "s/🕒 آخرین به‌روزرسانی: .*/🕒 آخرین به‌روزرسانی: $CURRENT_TIME/" README.md
+          else
+            # اگر وجود نداشت، به ابتدای فایل اضافه می‌کند
+            sed -i "1i\\🕒 آخرین به‌روزرسانی: $CURRENT_TIME\n" README.md
+          fi
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          # فقط در صورتی کامیت می‌کند که تغییری ایجاد شده باشد
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update README timestamp [skip ci]"
+          git push
