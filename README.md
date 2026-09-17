@@ -43,7 +43,7 @@ Server availability and performance can change at any time.
 ---
 
 ## 🔄 Updates
-🕒 آخرین به‌روزرسانی: 2026-09-16 16:01
+🕒 آخرین به‌روزرسانی: 2026-09-17 06:05
 The server list is updated regularly.
 
 When new configurations become available:
