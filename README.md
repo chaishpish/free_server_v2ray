@@ -1,4 +1,4 @@
-🕒 آخرین به‌روزرسانی: 2026-10-12 06:56
+🕒 آخرین به‌روزرسانی: 2026-10-13 08:10
 # 🚀 Free V2Ray Configs
 
 ### Daily Updated V2Ray / VLESS / VMess / Trojan Servers
