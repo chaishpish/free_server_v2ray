@@ -1,3 +1,4 @@
+🕒 آخرین به‌روزرسانی: 2026-11-23 08:22
 Free VIP servers are only on Telegram.
 
 # 🚀 Free V2Ray Configs
